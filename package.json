@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bnl75/LaunchX-Twitter/issues"
   },
-  "homepage": "https://github.com/bnl75/LaunchX-Twitter#readme"
+  "homepage": "https://github.com/bnl75/LaunchX-Twitter#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
 }
