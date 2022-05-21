@@ -8,8 +8,16 @@ class User {
         this.lastUpdated = new Date();
     }
 
+    get getId() {
+        return this.id;
+    }
+
     get getUsername() {
         return this.username;
+    }
+
+    get getName() {
+        return this.name;
     }
 
     get getBio() {
@@ -24,8 +32,16 @@ class User {
         return this.lastUpdated;
     }
 
+    set setId(newId) {
+        this.id = newId;
+    }
+
     set setUsername(newUsername) {
         this.username = newUsername;
+    }
+    
+    set setName(newName) {
+        this.name = newName;
     }
 
     set setBio(newBio) {
