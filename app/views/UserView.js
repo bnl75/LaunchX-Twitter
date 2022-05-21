@@ -12,7 +12,12 @@ class UserView {
                     const objectError = {error: "necesitan tener un valor válido"};
                     return objectError;
                 }
-            }
+            } //for-in
+
+            if (!payload.hasOwnProperty('id') || !payload.hasOwnProperty('username') || !payload.hasOwnProperty('name')) {
+                const objectError = {error: "necesitan tener un valor válido"};
+                return objectError;
+            } //if !payload.hasOwnProperty
         }
     } //createUser
 } //UserView
