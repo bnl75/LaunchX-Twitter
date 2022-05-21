@@ -15,6 +15,10 @@ class UserService {
 
         return userInfoList;
     } //getInfo
+
+    static updateUserUsername(user, newUsername) {
+        user.setUsername = newUsername;
+    } //updateUserUsername
 } //UserService
 
 module.exports = UserService;
